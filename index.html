@@ -7,8 +7,6 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!--LateX语法-->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
   <!--复制提醒-->
   <link rel="stylesheet" href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" type='text/css' media='all' />
   <!--问答手风琴-->
@@ -16,11 +14,11 @@
   <!-- 文章内右侧目录 -->
   <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
   <!--HTML预览-->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.css"/>
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.css"/>-->
 
 </head>
 <body>
-  <div id="app">Loading....</div>
+  <div id="app">Loading...</div>
   <script>
     window.$docsify = {
       // 设置文档名称
@@ -69,7 +67,6 @@
       // 回到顶部
       scrollToTop: {
         auto: true,
-        //text: '🔼',
         text: '👆',
         right: 12,
         bottom: 52,
@@ -77,10 +74,14 @@
       },
       // 页脚
       footer: {
-        copy: '<span id="sitetime"></span> <br/> <span>Copyright &copy; 2025 &nbsp 💖 &nbsp</span>',
+        copy: '<span>Copyright &copy; 2025 &nbsp 💖 &nbsp</span>',
         auth: ' <strong><a href="https://blog.csdn.net/Augenstern_QXL" target="_blank">Mr.Augenestern</a></strong>',
         pre: '<hr/>',
         style: 'font-size: 18px; text-align: center;',
+      },
+      // MD引用样式美化
+      'flexible-alerts': {
+        style: 'flat'
       },
       // 分页导航
       pagination: {
@@ -89,44 +90,24 @@
         crossChapter: true,
         crossChapterText: true,
       },
-     // 开启busuanzi 访问量统计
-     busuanzi : true,
-     //   最后更新时间
-     timeUpdater: {
+      //   最后更新时间
+      timeUpdater: {
         text: ">最后更新时间: {docsify-updated}",
         formatUpdated: "{YYYY}/{MM}/{DD}",
         whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
-     },
-     // MD引用样式美化
-    'flexible-alerts': {
-        style: 'flat'
-    },
-    // 阅读进度条美化
-    progress: {
+      },
+      // 阅读进度条美化
+      progress: {
         position: "top",
         color: "var(--theme-color,#42b983)",
         height: "3px",
-    },
-    // tab 选项卡
-    tabs: {
-        persist    : true,      // default
-        sync       : true,      // default
-        theme      : 'classic', // default
-        tabComments: true,      // default
-        tabHeadings: true       // default
-    },
-    // 文章内右侧目录
-    toc: {
+      },
+      // 文章内右侧目录
+      toc: {
         tocMaxLevel: 5,
         target: 'h2, h3, h4, h5, h6',
         ignoreHeader:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
-    },
-
-
-
-
-
-
+      },
 
 
 
@@ -134,40 +115,24 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- LateX -->
-  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <!-- Java代码高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
-  <!-- bash代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
-  <!-- python代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
-  <!-- C++代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
-  <!-- C代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
-  <!-- javascript代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
-  <!--css代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
-  <!--powershell代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-powershell.min.js"></script>
-  <!--sql代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
-  <!--yaml代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
-  <!--properties代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
+  <!-- 侧边栏可折叠 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- 代码右上角复制 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <!--全文搜索-->
+  <!-- 复制提醒 -->
+  <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+  <script>
+    document.body.oncopy = function () {
+      swal("复制成功 ",
+          "若要转载或引用请务必保留原文链接，并申明来源。",
+          "success"); };
+  </script>
+  <!-- 全文搜索 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!--字数统计-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-count@1.1.0/dist/countable.min.js"></script>
-  <!-- 侧边栏可折叠 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- 回到顶部功能 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-scroll-to-top@1.0.2/dist/docsify-scroll-to-top.min.js"></script>
   <!-- 页脚 -->
@@ -176,39 +141,29 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <!-- 图片放大 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <!--分页导航-->
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <!-- 复制提醒 -->
-  <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
-  <script>
-      document.body.oncopy = function () {
-          swal("复制成功 ",
-              "若要转载或引用请务必保留原文链接，并申明来源。",
-              "success"); };
-  </script>
   <!-- 红心点击特效 -->
   <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
-  <!-- 访问量统计busuanzi -->
-  <script src="https://unpkg.com/docsify-busuanzi@1.0.1/dist/docsify-busuanzi.min.js"></script>
-  <!--离线模式-->
+  <!-- 离线模式 -->
   <script>
-      if (typeof navigator.serviceWorker !== 'undefined') {
-          navigator.serviceWorker.register('sw.js')
-      }
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
   </script>
-  <!--更新时间-->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.js"></script>
   <!-- MD引用样式美化 -->
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!--分页导航-->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!--更新时间-->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.js"></script>
   <!--阅读进度条美化-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
   <!--问答手风琴-->
   <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
   <!-- 文章内右侧目录 -->
   <script src="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
-  <!-- HTML预览 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.js"></script>
-  <!--自动加空格-->
+  <!--HTML预览-->
+  <!--<script src="//cdn.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.js"></script>-->
+  <!--给网页上的中文和英文、数字、符号之间添加空格-->
   <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
 </body>
 </html>
