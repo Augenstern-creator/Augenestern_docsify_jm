@@ -1,15 +1,14 @@
 ![logo](static/icon/icon.svg)
 
-# docsify <small>3.5</small>
+# 生命是有光的 <small>V1.0</small>
 
-> 一个神奇的文档网站生成器。
+> 前端の小窝
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- 📖边角料构成的小小世界
+- 🎄有趣 有品 有种
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[WebBlog](https://blog.csdn.net/Augenstern_QXL)
+[Get Started](/README.md)
 
 
 
