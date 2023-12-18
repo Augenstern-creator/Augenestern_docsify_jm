@@ -9,7 +9,7 @@
 
 
 <a href="https://docsify.js.org/#/zh-cn/" target="_blank">
-<img alt="Static Badge" src="https://img.shields.io/badge/docsify-V3.5-brightgreen">
+<img alt="Static Badge" src="https://img.shields.io/badge/docsify-V4.13-brightgreen">
 </a>
 <a href="https://blog.csdn.net/Augenstern_QXL" target="_blank">
 <img alt="Static Badge" src="https://img.shields.io/badge/CSDN-%E7%94%9F%E5%91%BD%E6%98%AF%E6%9C%89%E5%85%89%E7%9A%84-8A2BE2">
