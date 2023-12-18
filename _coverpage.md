@@ -2,7 +2,7 @@
 
 # 生命是有光的 <small>V1.0</small>
 
-> 前端の小窝
+> 知识の小窝
 
 - 📖边角料构成的小小世界
 - 🎄有趣 有品 有种
@@ -20,7 +20,7 @@
 <a href="https://github.com/Augenstern-creator" target="_blank">
 <img alt="Static Badge" src="https://img.shields.io/badge/GitHub-Augenstern%20creator-pink">
 </a>
-<img alt="Static Badge" src="https://img.shields.io/badge/Web-%E3%81%AE%E5%B0%8F%E7%AA%9D-red">
+
 
 
 

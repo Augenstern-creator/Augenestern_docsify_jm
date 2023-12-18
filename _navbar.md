@@ -1,0 +1,7 @@
+- 作者🏆
+  - [博客](https://blog.csdn.net/Augenstern_QXL)
+  - [Gitee](https://gitee.com/Augenstern-creator)
+  - [GitHub](https://github.com/Augenstern-creator)
+- 扩展🔮
+  - [徽章](https://shields.io/)
+  - [图标](https://favicon.io/favicon-converter/)
