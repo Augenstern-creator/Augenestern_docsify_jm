@@ -7,6 +7,7 @@
     - [DocsifyTopMargin](/config/DocsifyTopMargin.md)
     - [DocsifyIcon](/config/DocsifyIcon.md)
     - [DocsifyEmoji](/config/DocsifyEmoji.md)
+    - [DocsifySelection](/config/DocsifySelection.md)
   - [Plugins](./plugins/README.md)
     - [CodeHighLight](/plugins/CodeHighLight.md)
     - [CopyCode](/plugins/CopyCode.md)
