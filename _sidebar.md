@@ -8,6 +8,7 @@
     - [DocsifyIcon](/config/DocsifyIcon.md)
     - [DocsifyEmoji](/config/DocsifyEmoji.md)
     - [DocsifySelection](/config/DocsifySelection.md)
+    - [DocsifyTheme](/config/DocsifyTheme.md)
   - [Plugins](./plugins/README.md)
     - [CodeHighLight](/plugins/CodeHighLight.md)
     - [CopyCode](/plugins/CopyCode.md)
