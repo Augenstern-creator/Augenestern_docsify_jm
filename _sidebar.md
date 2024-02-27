@@ -29,4 +29,9 @@
     - [SidebarFold](/plugins/SidebarFold.md)
   - [🍉 Buger](/Buger/README.md)
     - [DocsifyNavBar](/Buger/DocsifyNavBar.md)
+<<<<<<< HEAD
     - [DocsifyInclined](/Buger/DocsifyInclined.md)
+=======
+
+    
+>>>>>>> ca66f664ddbca25294b1da33d70659c32e83d72b
