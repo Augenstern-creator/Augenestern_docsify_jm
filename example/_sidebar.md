@@ -1,0 +1,2 @@
+- [例子页面](/example/blog/example.md)
+- [例子页面 2](/example/blog/example2.md)

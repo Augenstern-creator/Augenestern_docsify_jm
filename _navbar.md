@@ -1,7 +1,15 @@
-- 作者🏆
+- 例子 🍇
+  - [例子页面1](/example/blog/example.md)
+  - [例子页面2](/example/blog/example2.md)
+
+- 作者 🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)
   - [Gitee](https://gitee.com/Augenstern-creator)
   - [GitHub](https://github.com/Augenstern-creator)
-- 扩展🔮
+  - [仓库说明](/README.md)
+- 扩展 🔮
   - [徽章](https://shields.io/)
   - [图标](https://favicon.io/favicon-converter/)
+  - [emoji](https://www.emojiall.com/zh-hans)
+  - [logo](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
+  - [Color](https://html-color-codes.info/chinese/)
