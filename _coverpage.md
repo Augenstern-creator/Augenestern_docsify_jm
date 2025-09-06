@@ -30,6 +30,9 @@
 <a href="https://https://www.u-tools.cn/index.html" target="_blank">
 <img alt="Static Badge" src="https://img.shields.io/badge/%E9%AB%98%E6%95%88%E5%8A%9E%E5%85%AC-ToolsHub-red">
 </a>
+<a href="https://https://www.u-tools.cn/index.html" target="_blank">
+<img alt="Static Badge" src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1%E8%81%94%E7%B3%BB%E6%88%91-Mail-green">
+</a>
 
 
 
