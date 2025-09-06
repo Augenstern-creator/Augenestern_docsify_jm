@@ -38,7 +38,7 @@
 
 
 [AboutMe](/doc/AboutMe.md)
-[Get Started](/README.md)
+[Get Started](/doc/AboutMe.md)
 
 
 

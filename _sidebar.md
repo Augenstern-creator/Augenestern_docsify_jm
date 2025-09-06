@@ -2,6 +2,10 @@
 - [🍎 excel超级技巧](/doc/office/ppt/01_PPT高手之路.md)
 - [🍏 高效办公盒](/doc/office/ppt/01_PPT高手之路.md)
 - [🍓 AI工具集](/doc/office/ppt/01_PPT高手之路.md)
+- [💻 重装PC系统](/doc/remakepc/01_微PE工具箱.md)
+- [🥕 Latex基本语法](/doc/latex/Latex.md)
+- [🥖 自学尤克里里](/doc/music/尤克里里(一).md)
+- [🫓 MarkDown语法](/doc/markdown/Markdown.md)
 
 
 

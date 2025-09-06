@@ -1,0 +1,21 @@
+/*文字选中背景颜色改变*/
+*::selection {
+  background-color: #9A2EFE;
+  color: #fff;
+}
+
+/*自定义h5标题项*/
+h5 {
+  font-size: 25px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
