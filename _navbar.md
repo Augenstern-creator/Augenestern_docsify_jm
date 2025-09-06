@@ -1,6 +1,6 @@
 - 例子 🍇
-  - [例子页面1](/example/blog/example.md)
-  - [例子页面2](/example/blog/example2.md)
+  - [例子页面1](/doc/blog/example.md)
+  - [例子页面2](/doc/blog/example2.md)
 
 - 作者 🏆
   - [博客](https://blog.csdn.net/Augenstern_QXL)

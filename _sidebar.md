@@ -1,3 +1,11 @@
+- [🍊 PPT高手之路](/doc/office/ppt/01_PPT高手之路.md)
+- [🍎 excel超级技巧](/doc/office/ppt/01_PPT高手之路.md)
+- [🍏 高效办公盒](/doc/office/ppt/01_PPT高手之路.md)
+- [🍓 AI工具集](/doc/office/ppt/01_PPT高手之路.md)
+
+
+
+
 - 🌍 Copyright
   - [🍇 Configs](/config/README.md)
     - [DocsifyRepo](/config/DocsifyRepo.md)
@@ -29,9 +37,7 @@
     - [SidebarFold](/plugins/SidebarFold.md)
   - [🍉 Buger](/Buger/README.md)
     - [DocsifyNavBar](/Buger/DocsifyNavBar.md)
-<<<<<<< HEAD
     - [DocsifyInclined](/Buger/DocsifyInclined.md)
-=======
 
-    
->>>>>>> ca66f664ddbca25294b1da33d70659c32e83d72b
+  
+
